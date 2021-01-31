@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    margin: auto;
+}
+ 
+.meain-div {
+	width: 1024px;
+}
+.header-manu ul {
+	text-align: center;
+	margin-left: 332px;
+	margin-top: 30px;
+}
+ 
+.header-manu ul{
+    text-align: center;
+ 
+}
+.header-manu ul li {
+     
+    margin: auto;
+	float: left;
+	list-style: none;
+	position: relative;
+	/* text-decoration: none; */
+}
+.header-manu ul li a {
+    display: block;
+	padding: 17px 23px;
+	background: #d2d2d2;
+	text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+.header-manu ul li a::before {
+	content: "";
+	width: 0;
+	height: 3px;
+	bottom: 24%;
+	left: 20px;
+	position: absolute;
+	 border-radius: 3px;
+	border-bottom: 1px solid #000;
+	transition: all .4s ease-in-out;
+}
+.header-manu ul li a:hover::before{
+	width: 80%;
+}
+.header-manu ul li a:hover{
+	color: rgb(15, 75, 62);
+}
+.content {
+	background-color: #ecf0f1;
+	clear: both;
+	/* max-width: 100%; */
+	padding: 46px;
+    margin-top: 107px;
+    text-align: center;
+}
+.content h1 {
+	color: #9d5151;
+    font-size: 46px;
+
+}
+    /* slider-section */
+
+.slider-section{
+
+}
+.sarvics-part {
+	display: block;
+	float: right;
+	margin-top: 4px;
+	line-height: 100%;
+}
+.sarvics-part h2{
+    color: #9d5151;
+}
+.mr h2 {
+	background: #d2d2d2;
+	text-align: center;
+	padding: 0 56px;
+	margin-top: 67px;
+}
+.image-part img {
+	width: 436px;
+	/* float: boot; */
+	float: left;
+	height: 338px;
+}
+.sarvices{
+	clear: both;
+ text-align: center;
+}
+.sarvices a {
+ 
+	text-decoration: none;
+	background: darkgray;
+	padding: 13px 9px;
+	font-size: 41px;
+	color: #282828;
+	border: 2px solid black;
+	position: relative;
+	/* margin-top: 10px; */
+	display: inline-block;
+	margin-left: 11.3%;
+	position: relative;
+	z-index: 1;
+}
+.sarvices a::before{
+	content: "";
+	height: 100%;
+	width: 0;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgb(91, 210, 221);
+	transition: .4s;
+	z-index: -1;
+}
+.sarvices a:hover::before{
+	width: 100%;
+}
+.cors {
+	display: block;
+	width: 28.3%;
+	height: 97px;
+	background: #d2d2d2;
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+	margin-top: 37px;
+	padding: 20px;
+}
+.help-center {
+	background: #d2d2d2;
+	text-align: center;
+	float: left;
+	border-top: 2px solid;
+	margin-top: 20px;
+}
+.meain-div{
+	box-shadow: 10px 10x 10px 10px rgba( blue, alpha);
+}
